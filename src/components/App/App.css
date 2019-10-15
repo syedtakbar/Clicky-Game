@@ -1,0 +1,78 @@
+.App {
+    position: relative;
+    text-align: center;
+    background: #111;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Galindo', cursive;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    display: inline-block;
+    /* margin-right: 10%; */
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+}
+
+.App-intro {
+    text-align: center;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.App-scoreContainer {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+.App-score {
+    display: inline;
+    margin-right: 1%;
+    font-size: large;
+}
+
+.App-highScore {
+    display: inline;
+    font-size: large;
+}
+
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 792px) {
+    .container {
+        width: 90%;
+        margin-top: 10%
+    }
+
+    .App-title {
+        margin: auto;
+        font-size: 40px;
+    }
+
+
+}
